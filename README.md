@@ -25,8 +25,8 @@ En cada clase podemos encontrar sus atributos, ubicados en la primera parte de l
     - Estudiantes es un atributo privado de tipo 'MutableList' que contiene una lista con los estudiantes que conforman un curso.
       
   - Métodos:
-    - agregarEstudiante(Estudiante estudiante): es una función interna de la clase que añade una instancia de la clase Estudiante a la lista de estudiantes que pertenecen a un curso.
-    - mostrarEstudiante(): es una función interna de la clase que muestra por pantalla los datos de un determinado estudiante de un curso concreto.
+    - agregarEstudiante(Estudiante estudiante): es una función pública de la clase que añade una instancia de la clase Estudiante a la lista de estudiantes que pertenecen a un curso.
+    - mostrarEstudiante(): es una función pública de la clase que muestra por pantalla los datos de un determinado estudiante de un curso concreto.
 
 - Estudiante:
   - Atributos:
@@ -34,7 +34,7 @@ En cada clase podemos encontrar sus atributos, ubicados en la primera parte de l
     - Dni es un atributo público de tipo 'String' que contiene el dni de un estudiante.
       
   - Métodos:
-    - inscribirseCurso(Curso curso): es una función interna de la clase que inscribe a un estudiante en un determinado curso.
+    - inscribirseCurso(Curso curso): es una función pública de la clase que inscribe a un estudiante en un determinado curso.
 
 
 c)Significado del método agregarAlumno(). Funcionamiento. 
@@ -43,7 +43,8 @@ c)Significado del método agregarAlumno(). Funcionamiento.
 
 
 d) Significado del método inscribirse()
-En este caso, el método pertenece a la clase 'Estudiante' y llama al método 'agregarEstudiante' de la clase 'Estudiante' 
+En este caso, el método pertenece a la clase 'Estudiante' y llama al método 'agregarEstudiante' de la clase 'Estudiante' para agregar dicha instancia a la lista de estudiantes, la
+cual es un atributo de la clase Curso.
 
 
 ## 2. Generación de código a partir del diagrama. 
@@ -53,3 +54,5 @@ a) Crear clases
 b) Crear relaciones
 
 c) Crear main (para probar el sistema).
+
+Solución: https://github.com/Lmrocio/Practica_5.1_Entornos/blob/main/parte2.kt
