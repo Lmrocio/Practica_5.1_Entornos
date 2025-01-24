@@ -38,11 +38,13 @@ En cada clase podemos encontrar sus atributos, ubicados en la primera parte de l
 
 
 c)Significado del método agregarAlumno(). Funcionamiento. 
+
   El método agregarEstudiante(estudiante: Estudiante) recibe un objeto de la clase 'Estudiante' y lo añade en la lista 'estudiantes' que es uno de los
   atributos de la clase Curso.
 
 
 d) Significado del método inscribirse()
+
 En este caso, el método pertenece a la clase 'Estudiante' y llama al método 'agregarEstudiante' de la clase 'Estudiante' para agregar dicha instancia a la lista de estudiantes, la
 cual es un atributo de la clase Curso.
 
